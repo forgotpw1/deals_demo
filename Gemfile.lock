@@ -43,9 +43,10 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.4.0)
-    deals (0.0.1)
+    deals (0.0.2)
       carrierwave
       devise
+      fog
       rails (~> 3.2.9)
       rails_admin
     devise (2.1.2)
@@ -171,7 +172,7 @@ PLATFORMS
 DEPENDENCIES
   carrierwave
   coffee-rails (~> 3.2.1)
-  deals
+  deals (= 0.0.2)
   devise
   fog (~> 1.3.1)
   jquery-rails
