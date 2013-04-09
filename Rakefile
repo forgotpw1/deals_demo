@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-DealsDemo::Application.load_tasks
+Puravidadeals::Application.load_tasks

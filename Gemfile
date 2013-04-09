@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 gem 'devise'
 gem 'rails_admin'
 gem 'carrierwave'
+gem 'fog', '~> 1.3.1'
 
 gem 'rails', '3.2.9'
 
@@ -9,7 +10,7 @@ gem 'rails', '3.2.9'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-gem 'deals'
+gem 'deals', :path => '../deals/'
 
 # Gems used only for assets and not required
 # in production environments by default.

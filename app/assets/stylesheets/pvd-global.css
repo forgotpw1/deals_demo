@@ -1,0 +1,73 @@
+body
+{
+margin:0px;
+padding:0px;
+background-color:#94ABFB;
+font-family:'Lucida Grande', sans-serif;
+background-image: url("background-gradient.jpg");
+background-repeat: repeat-x;
+border: none;
+}
+
+a
+{
+text-decoration: none;
+}
+
+.main_container
+{
+}
+
+.deal_block
+{
+float: left;
+width: 110px;
+margin: 40px;
+padding: 0;
+text-align: center;
+border: 6px solid #000000;
+}
+
+.deal_detail a
+{
+text-decoration: none;
+}
+
+.deal_detail .headline
+{
+background: #000000;
+color: #fff;
+vertical-align: middle;
+z-index: 5;
+}
+
+a.deal_detail .headline:hover
+{
+background: #fff;
+color: #000000;
+z-index: 5;
+}
+
+.deal_detail .subhead, .deal_detail .headline
+{
+height: 54px;
+font-size: 13px;
+display: block;
+padding-top:0px;
+margin-top: 0px;
+}
+
+.deal_detail .subhead
+{
+background: #fff;
+color: #000000;
+vertical-align: middle;
+z-index: 5;
+}
+
+a.deal_detail .subhead:hover
+{
+background: #000000;
+color: #fff;
+z-index: 5;
+}

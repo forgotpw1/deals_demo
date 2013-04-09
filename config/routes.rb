@@ -1,4 +1,4 @@
-DealsDemo::Application.routes.draw do
+Puravidadeals::Application.routes.draw do
 
   mount Deals::Engine => '/deals', :as => 'deals'
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
