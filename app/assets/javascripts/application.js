@@ -12,5 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require twitter/bootstrap
 //= require knockout-2.2.0
 //= require deals
