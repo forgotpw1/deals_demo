@@ -3,7 +3,7 @@
   Place:
 %select{"class"=>"place", "data-bind" => "options: places, optionsValue:'slug', optionsText:'name', value: current_place_id, optionsCaption:'Choose...'" }
 %label
-  Categoris:
+  Categories:
 %select{"class" => "category", "data-bind" => "options: categories, optionsValue:'slug', optionsText:'name', value: current_category_id, optionsCaption:'Choose...'" }
 
 #deals{"data-bind"=>"foreach: deals"}
